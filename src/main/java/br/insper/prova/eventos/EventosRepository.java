@@ -1,4 +1,4 @@
-package br.insper.prova.jogador;
+package br.insper.prova.eventos;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
@@ -6,5 +6,6 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface JogadorRepository extends MongoRepository<Jogador, String> {
+public interface EventosRepository extends MongoRepository<Eventos, String> {
+    List<Eventos> findByNome(String nome);
 }

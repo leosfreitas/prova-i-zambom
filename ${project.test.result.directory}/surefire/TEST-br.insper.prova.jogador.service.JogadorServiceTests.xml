@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.insper.prova.jogador.service.JogadorServiceTests" time="4.584" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="br.insper.prova.eventos.service.EventosServiceTests" time="4.584" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -60,12 +60,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="TestCadastrarJogador" classname="br.insper.prova.jogador.service.JogadorServiceTests" time="4.404">
+  <testcase name="TestCadastrarJogador" classname="br.insper.prova.eventos.service.EventosServiceTests" time="4.404">
     <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\leosf\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.19\byte-buddy-agent-1.14.19.jar)
 WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
 WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
 WARNING: Dynamic loading of agents will be disallowed by default in a future release
 ]]></system-err>
   </testcase>
-  <testcase name="testListarJogadores" classname="br.insper.prova.jogador.service.JogadorServiceTests" time="0.011"/>
+  <testcase name="testListarJogadores" classname="br.insper.prova.eventos.service.EventosServiceTests" time="0.011"/>
 </testsuite>

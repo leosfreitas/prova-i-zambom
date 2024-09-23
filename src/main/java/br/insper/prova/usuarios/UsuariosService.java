@@ -1,16 +1,16 @@
-package br.insper.prova.time;
+package br.insper.prova.usuarios;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 @Service
-public class TimeService {
+public class UsuariosService {
 
-    public ResponseEntity<RetornarTimeDTO> getTime(Integer id) {
+    public ResponseEntity<RetornarUsuariosDTO> getUsuario(String cpf) {
         RestTemplate restTemplate = new RestTemplate();
         return restTemplate.getForEntity(
-                "http://localhost:8082/time/" + id,
-                RetornarTimeDTO.class);
+                "http://184.72.80.215:8080/usuario/"+cpf,
+                RetornarUsuariosDTO.class);
     }
 }
